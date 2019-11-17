@@ -7,6 +7,7 @@ const pages = require('./controllers/pages')
 
 app.get('/', pages.home)
 app.get('/page1', pages.page1)
+app.get('/page2', pages.page2)
 app.get('/calc/:num1/:num2', pages.calc)
 
 app.listen(port, (err) => {
